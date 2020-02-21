@@ -24,7 +24,9 @@ Person_ID | Name | DOB | mother | father
 4 | Patricia | 17/4/22 | null | null
 5 | Michael | 1/9/09 | null | null
 6 | Sally | 17/4/23 | null | null
-7 | Michael | 3/10/13 | null | null
+7 | Robert | 3/10/13 | null | null
+
+In a graph database, this would look like the following
 
 
 
