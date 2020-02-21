@@ -17,6 +17,7 @@ In a relationsal database, we might record this in a simple table
 
 
 Person_ID | Name | DOB | mother | father
+--- | --- | --- | --- | ---
 1 | John | 1/10/79 | 2 | 3
 2 | Mary | 4/2/56 | 4 | 5
 3 | John snr | 28/11/52 | 6 | 7
