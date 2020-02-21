@@ -1,3 +1,5 @@
+#TerminusDB Graph Basics
+
 TerminusDB organises data in a very simple structure to make it easy and natural to model the real world. 
 
 Whereas traditional relational databases divide data into tables, columns and rows, 
