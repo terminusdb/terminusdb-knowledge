@@ -30,13 +30,15 @@ The big advantage is that it is much easier to interpret the model and understan
 #Query
 For example, if we wanted to fetch the name of john's mother and grandmother from the database, if we were using a relational database, we could use the following two SQL queries to get the name of the mother and grandmother respectively: 
 
-```SELECT Name from TABLE where Person_ID = (SELECT mother from TABLE where Name="John")
+```
+SELECT Name from TABLE where Person_ID = (SELECT mother from TABLE where Name="John")
 SELECT Name from TABLE where Person_ID = (SELECT mother from TABLE WHERE Person_ID = (SELECT mother from TABLE where Name="John"))
 ```
 
 In a graph database this is much simpler: we can use a triple pattern such as the following to get both names in the same query - we do not have to explicitly join the records together, the joins are implicit - we use the same ID in different parts of the query: 
 
-```WOQL.and(
+```
+WOQL.and(
    WOQL.triple("v:Person", "mother", "v:MotherID"),
    WOQL.triple("v:MotherID", "name", "v:MotherName"),
    WOQL.triple("v:MotherID", "mother", "v:GrandmotherID"),
