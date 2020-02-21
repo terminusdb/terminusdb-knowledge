@@ -30,3 +30,8 @@ In a graph database, this would look like the following
 
 ![Family Tree Graph](https://terminusdb.github.io/terminusdb-knowledge/images/family-tree.png "Family Tree")
 
+The big advantage is that it is much easier to interpret the model and understand how it maps to real world entities compared to the relational example.  This increased ease is included 
+
+#Query
+
+
