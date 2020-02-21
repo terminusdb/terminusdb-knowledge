@@ -28,5 +28,5 @@ Person_ID | Name | DOB | mother | father
 
 In a graph database, this would look like the following
 
-
+![Family Tree Graph](https://terminusdb.github.io/terminusdb-knowledge/images/family-tree.png "Family Tree")
 
