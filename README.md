@@ -48,3 +48,5 @@ WOQL.and(
 )
 
 By using "v:MotherID" multiple times in the query, we create a chain: v:Person =mother=> v:Mother =mother=> v:Grandmother
+
+This makes our queries much easier to understand - we can follow them naturally across multiple patterns. 
